@@ -67,7 +67,7 @@ p.notes {
 margin-top: -.5rem;
 color: white;
 font-family: 'Roboto Condensed', sans-serif;
-font-size: 15px;
+font-size: 16px;
 padding: 0rem 4rem 1rem 4rem;
 }
 
@@ -162,11 +162,17 @@ margin: 0 auto;
 
 .top {
   display: inline-block;
-
+z-index: 10000;
 width: 100%;
 min-height: 25em;
 background-color: #233544;
 margin: 0 auto;
+
+}
+
+img.item {
+
+width: 500px;
 
 }
 
@@ -177,11 +183,32 @@ text-align: center;
 
 .middle {
 width: 100%;
-min-height: 25rem;
+min-height: 20rem;
+background-color: black;
+text-align: center;
+display: inline-block;
+
+}
+
+.photos {
+width: 100%;
+background-color: black;
+text-align: center;
+display: inline-block;
+padding: 1rem 0rem;
+}
+
+
+
+.contact {
+width: 100%;
+min-height: 15rem;
 background-color: black;
 text-align: center;
 display: inline-block;
 }
+
+
 
 .bottom {
 	text-align: center;
@@ -189,6 +216,7 @@ width: 100%;
 min-height: 25rem;
 background-color: #233544;
 display: inline-block;
+margin-top: -5px;
 }
 
 .copyright {
